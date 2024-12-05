@@ -17,7 +17,7 @@ import Cart from './components/user/Cart';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/'>
       <div className="min-h-screen bg-light">
         <Navbar />
         <Toaster position="top-center" />
